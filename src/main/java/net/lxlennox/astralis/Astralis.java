@@ -3,11 +3,12 @@ package net.lxlennox.astralis;
 import net.fabricmc.api.ModInitializer;
 
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
-import net.lxlennox.astralis.block.ModBlockColors;
+
+import net.lxlennox.astralis.block.ModBlocks;
 import net.lxlennox.astralis.item.ModItems;
 import net.lxlennox.astralis.world.gen.ModWorldGeneration;
 import net.minecraft.block.Blocks;
-import net.minecraft.fluid.Fluid;
+
 import net.minecraft.fluid.Fluids;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
@@ -19,9 +20,10 @@ public class Astralis implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 		ModWorldGeneration.generateModWorldGen();
-		ModBlockColors.registerBlockColors();
+
 
 		CustomPortalBuilder.beginPortal()
 				.frameBlock(Blocks.CRYING_OBSIDIAN)
