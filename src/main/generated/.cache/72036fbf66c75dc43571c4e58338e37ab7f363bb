@@ -1,4 +1,8 @@
-// 1.21	2025-03-22T21:24:15.116616	Astralis/Model Definitions
+// 1.21	2025-03-23T20:50:50.8289863	Astralis/Model Definitions
 735d2839fc0938e96faa6d8df0328bb8721be4db assets\astralis\models\item\stellar_dirt.json
+4c3956e2e19d51109d328faf06087b1635b4d9de assets\astralis\models\block\stellar_grass_snow.json
+fde258baaad9c665deebd88fadc361693972d7cd assets\astralis\models\item\stellar_grass.json
+eea79e9d88fc5f7ee187b0eeaa7e70641fd9e2c9 assets\astralis\models\block\stellar_grass.json
 83dc7dcbdb96ae4faccbc7bb5cd88464b0c9fd3d assets\astralis\models\block\stellar_dirt.json
 2a0a3355e3c2418d6359bec5a51566c73130f3c1 assets\astralis\blockstates\stellar_dirt.json
+4c26422ad0d01a67fdde7535276bb675ed35707c assets\astralis\blockstates\stellar_grass.json

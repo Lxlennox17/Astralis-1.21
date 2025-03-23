@@ -17,7 +17,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public void generate() {
 
      addDrop(ModBlocks.STELLAR_DIRT);
-
+addDropWithSilkTouch(ModBlocks.STELLAR_GRASS,ModBlocks.STELLAR_DIRT);
 
 
 
