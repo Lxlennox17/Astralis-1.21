@@ -18,7 +18,8 @@
                     "offset": 0
                   }
                 },
-                {"biome": "astralis:stellar_forest",
+                {
+                  "biome": "astralis:moonveil_woods",
                   "parameters": {
                     "temperature": 0.7,
                     "humidity": 0.8,

@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.lxlennox.astralis.datagen.*;
 import net.lxlennox.astralis.world.ModConfiguredFeatures;
 import net.lxlennox.astralis.world.ModPlacedFeatures;
+import net.lxlennox.astralis.world.biome.ModBiomes;
 import net.lxlennox.astralis.world.dimension.ModDimensions;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
@@ -28,6 +29,6 @@ public class AstralisDataGenerator implements DataGeneratorEntrypoint {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 		//registryBuilder.addRegistry(RegistryKeys.DIMENSION_TYPE, ModDimensions::bootstrapType);
-
+		registryBuilder.addRegistry(RegistryKeys.BIOME,ModBiomes::bootstrap);
 	}
 }
