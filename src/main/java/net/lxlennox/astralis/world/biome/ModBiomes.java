@@ -88,7 +88,7 @@ public class ModBiomes {
                             .skyColor(7039851)
                             .fogColor(14935011)
                             .grassColor(15395819)
-                            // .foliageColor( 0xCEB5F0)
+                            .foliageColor(15395819)
                             .moodSound(BiomeMoodSound.CAVE)
                             .music(MusicType.createIngameMusic(SoundEvents.MUSIC_OVERWORLD_CHERRY_GROVE)).build())
                     .build();
