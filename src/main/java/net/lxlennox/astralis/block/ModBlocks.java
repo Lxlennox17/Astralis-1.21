@@ -13,7 +13,7 @@ public class ModBlocks {
 
 
     public static final Block STELLAR_GRASS = registerBlock("stellar_grass",
-            new GrassBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK)));
+            new StellarGrassBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK)));
 
     public static final Block STELLAR_DIRT = registerBlock("stellar_dirt",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.DIRT_BROWN).ticksRandomly().strength(0.6F).sounds(BlockSoundGroup.GRASS)));
