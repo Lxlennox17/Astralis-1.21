@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "snowy=false": {
+      "model": "astralis:block/stellar_grass"
+    },
+    "snowy=true": {
+      "model": "astralis:block/stellar_grass_snow"
+    }
+  }
+}
