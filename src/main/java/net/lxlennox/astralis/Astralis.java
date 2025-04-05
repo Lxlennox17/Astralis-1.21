@@ -7,6 +7,8 @@ import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.lxlennox.astralis.block.ModBlocks;
 import net.lxlennox.astralis.item.ModItems;
 import net.lxlennox.astralis.world.gen.ModWorldGeneration;
+import net.lxlennox.astralis.world.tree.ModFoliagePlacerTypes;
+import net.lxlennox.astralis.world.tree.ModTrunkPlacerTypes;
 import net.minecraft.block.Blocks;
 
 import net.minecraft.fluid.Fluids;
@@ -22,6 +24,8 @@ public class Astralis implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+		ModTrunkPlacerTypes.registerAstralisTrunkPlacerType();
+		ModFoliagePlacerTypes.register();
 		ModWorldGeneration.generateModWorldGen();
 
 
